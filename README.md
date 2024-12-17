@@ -30,7 +30,7 @@ The script can be executed with several command line arguments to specify input 
   <img src="https://github.com/user-attachments/assets/3c5e31f5-2a96-4e70-a292-c7cc1f64f054" width="400" height="300">
 
   ## 2) Plotting trajectories in 3D
-  `python3 trajectory_visualization3D.py  svin_Trajectory01.txt`
+  ```bash python3 trajectory_visualization3D.py  svin_Trajectory01.txt```
   
   <img src="https://github.com/user-attachments/assets/8c425b68-4abd-4b3d-b142-6c2d04d8bde5" width="400" height="300">
 
