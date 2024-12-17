@@ -1,4 +1,6 @@
 # Trajectory_visualization
+This project provides utilities for reading and processing camera trajectory data along with point clouds. It computes camera headings, identifies points to the left and right of the trajectory, and visualizes it in both 3D and 2D. 
+
 ## Required libraries
 - Python 3.x
 - NumPy
@@ -19,14 +21,14 @@ The script can be executed with several command line arguments to specify input 
 - `--left` : (Optional) Flag to plot only the furthest left points.
 - `--right` : (Optional) Flag to plot only the furthest right points.
 
-  ## Examples
+  # Examples
   There are some example trajectories and point cloud data files in the source folder.
   ## 1) Plotting multiple trajectories in 2D
   ```bash
   python3 trajectory_visualization2D.py svin_Trajectory01.txt svin_Tajectory02.txt
   ```
 
-  # Command used to plot the following:
+  ## Command used to plot the following:
   
 ```bash 
 python3 trajectory_visualization2D.py svin_2024_11_12_23_13_40CatacombsCenter.txt svin_2024_11_13_02_38_05CatacombsLeft.txt svin_2024_11_13_21_18_52CatacombsRight.txt
