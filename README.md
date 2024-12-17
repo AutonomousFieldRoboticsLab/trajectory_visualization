@@ -13,7 +13,7 @@ pip install numpy pandas matplotlib open3d evo
 The script can be executed with several command line arguments to specify input files and plotting preferences.
 ## Command Line Arguments
 - trajectory_files: Paths to one or more camera trajectory files. Multiple files should be separated by spaces.
-- '--point_clouds': (Optional) Paths to point cloud files corresponding to the trajectory files.
+- '''bash --point_clouds''' : (Optional) Paths to point cloud files corresponding to the trajectory files.
 - --distance: (Optional) Distance in meters to calculate left and right points, default is 1.0 meter.
 - --plot: (Optional) Flag to plot both the furthest left and right points along with the trajectory.
 - --left: (Optional) Flag to plot only the furthest left points.
