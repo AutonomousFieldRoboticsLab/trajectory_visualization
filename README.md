@@ -24,24 +24,25 @@ The script can be executed with several command line arguments to specify input 
   ## 1) Plotting multiple trajectories in 2D
   `python3 trajectory_visualization2D.py svin_Trajectory01.txt svin_Tajectory02.txt`
 
-  command used to plot the following:   
-<div style="width: auto; overflow-x: auto; white-space: nowrap;">
+  command used to plot the following:
+  <div style="width: auto; overflow-x: auto; white-space: nowrap;">
 
 `python3 trajectory_visualization2D.py svin_2024_11_12_23_13_40CatacombsCenter.txt svin_2024_11_13_02_38_05CatacombsLeft.txt svin_2024_11_13_21_18_52CatacombsRight.txt`
 
 </div>
 
-    <img src="https://github.com/user-attachments/assets/3c5e31f5-2a96-4e70-a292-c7cc1f64f054" width="400" height="300">
+
+  <img src="https://github.com/user-attachments/assets/3c5e31f5-2a96-4e70-a292-c7cc1f64f054" width="400" height="300">
 
   ## 2) Plotting trajectories in 3D
   `python3 trajectory_visualization3D.py  svin_Trajectory01.txt`
   
-    <img src="https://github.com/user-attachments/assets/8c425b68-4abd-4b3d-b142-6c2d04d8bde5" width="400" height="300">
+  <img src="https://github.com/user-attachments/assets/8c425b68-4abd-4b3d-b142-6c2d04d8bde5" width="400" height="300">
 
   ## 3) Plotting trajectories with furthest left and right points
   `python3 trajectory_visualization2D.py  svin_Trajectory01.txt --point_cloud Challenge2OGpointcloud1.ply --plot`
   
-    <img src="https://github.com/user-attachments/assets/cc81ef5d-cd88-467f-ae35-dc3a8795df25" width="400" height="300">
+   <img src="https://github.com/user-attachments/assets/cc81ef5d-cd88-467f-ae35-dc3a8795df25" width="400" height="300">
 
 
 
